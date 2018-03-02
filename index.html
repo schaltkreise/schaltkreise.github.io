@@ -1,35 +1,77 @@
 <!DOCTYPE html>
-<html lang="de">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Titel</title>
-  </head>
-  <body>
-  <p> <h1> Satz des Pythagoras </h1><p/>
-  <p> <h3>
-	Um c zu berechnen das folgende Programm in der 
-	<a href="https://cscircles.cemc.uwaterloo.ca/konsole/">Konsole</a> eingeben <br></h3>
-	import math<br>
-	a = #enfernt das und gibt a ein<br>
-	b = #enfernt das und gibt b ein<br>
-	c = math.sqrt((a**2)+(b**2))<br>
-	print(c)<br>
-	<h3>
-	Um b zu berechnen das folgende Programm in der 
-	<a href="https://cscircles.cemc.uwaterloo.ca/konsole/">Konsole</a> eingeben <br></h3>
-	import math<br>
-	c = #enferne das und gib c ein<br>
-	a = #enferne das und gib b ein<br>
-	b = math.sqrt((c**2)-(a**2))<br>
-	print(b)<br>
-	<h3>
-	Um a zu berechnen das folgende Programm in der 
-	<a href="https://cscircles.cemc.uwaterloo.ca/konsole/">Konsole</a> eingeben <br></h3>
-	import math<br>
-	c = #enferne das und gib c ein<br>
-	b = #enferne das und gib b ein<br>
-	a = math.sqrt((c**2)-(b**2))<br>
-	print(a)<br>
-  </body>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" media="screen" href="./Beispiel:SELFHTML-Beispiel-Grundlayout.css" />
+		<title>Satz des Pythagoras </title>
+		<style>
+			label, button {
+				display: block;
+				margin: 2em;
+			}
+			input {
+				width: 3.5em;
+			}
+		</style>
+		
+			
+
+	<body>
+		<h1>Satz des Pythagoras</h1>
+		<h3> Um c zu berechnen das folgende Programm benutzen</h3>
+                <main>
+		<form>
+			
+			<label for="a">a: 
+				<input id="a" type="number" min="0" max="1000" step="1" value="1">
+			</label>
+			<label for="b">b: 
+				<input id="b" type="number" min="0" max="1000" step="1" value="1">
+			</label>
+			<label>c:
+				<output id="c"></output>
+			</label>
+			<button type="button" id="berechnen">c berechnen</button>
+		</form>
+                </main>
+	</body>
+		
+
+	</head>
+	<body>
+		<h3> Um a zu berechnen das folgende Programm benutzen</h3>
+                <main>
+		<form>
+			<label for="cc">c: 
+				<input id="cc" type="number" min="0" max="1000" step="1" value="1">
+			</label>
+			<label for="bb">b: 
+				<input id="bb" type="number" min="0" max="1000" step="1" value="1">
+			</label>
+			<label>a:
+				<output id="aa"></output>
+			</label>
+			<button type="button" id="berechnenn">a berechnen</button>
+		</form>
+                </main>
+	</body>
+	<body>
+		<h3> Um b zu berechnen das folgende Programm benutzen</h3>
+                <main>
+		<form>
+			<script type='text/javascript' src="aa.js"></script>
+			<label for="ccc">c: 
+				<input id="ccc" type="number" min="0" max="1000" step="1" value="1">
+			</label>
+			<label for="aaa">a: 
+				<input id="aaa" type="number" min="0" max="1000" step="1" value="1">
+			</label>
+			<label>b:
+				<output id="bbb"></output>
+			</label>
+			<button type="button" id="berechnennn">b berechnen</button>
+		</form>
+                </main>
+	</body>
 </html>
