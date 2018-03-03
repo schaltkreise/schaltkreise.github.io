@@ -1,14 +1,14 @@
 function berechne_c () {
-				var a = parseInt(document.getElementById("a").value);
-				var b = parseInt(document.getElementById("b").value);
+				var a = parseFloat(document.getElementById("a").value);
+				var b = parseFloat(document.getElementById("b").value);
 				
 				var c = Math.sqrt((Math.pow(a, 2)+Math.pow(b, 2)));
 				
 				document.getElementById("c").value = c;
 			}
 function berechnenn_bbb () {
-				var aaa = parseInt(document.getElementById("aaa").value);
-				var ccc = parseInt(document.getElementById("ccc").value);
+				var aaa = parseFloat(document.getElementById("aaa").value);
+				var ccc = parseFloat(document.getElementById("ccc").value);
 				
 				var bbb = Math.sqrt((Math.pow(ccc, 2)-Math.pow(aaa, 2)));
 				
@@ -17,8 +17,8 @@ function berechnenn_bbb () {
 
 
 function berechnen_aa () {
-				var cc = parseInt(document.getElementById("cc").value);
-				var bb = parseInt(document.getElementById("bb").value);
+				var cc = parseFloat(document.getElementById("cc").value);
+				var bb = parseFloat(document.getElementById("bb").value);
 				
 				var aa = Math.sqrt((Math.pow(cc, 2)-Math.pow(bb, 2)));
 				
