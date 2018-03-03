@@ -14,20 +14,89 @@
 				width: 3.5em;
 			}
 		</style>
-		
-			
+		<style>
+			table, td, th { border: 1px solid black; }
+		</style>
+		<style>
+			.crop {
+				width: 130px;
+				height: 30px;
+				overflow: hidden;
+			}
 
+			.crop img {
+				width: 130px;
+				height: 60px;
+				margin: 0px 0 0 -7px;
+			}
+		</style>
+		<style>
+			.cropp {
+				width: 130px;
+				height: 30px;
+				overflow: hidden;
+			}
+
+			.cropp img {
+				width: 130px;
+				height: 60px;
+				margin: -30px 0 0 -7px;
+			}
+		</style>
 	<body>
 		<h1>Satz des Pythagoras</h1>
+			<p>
+				Der Satz des Pythagoras ist definiert als:<br />
+				"Wenn ein Dreieck rechtwinklig ist mit den Katheten a und b und der Hypothenuse c,dann gilt"<br /><img src="http://www.gigers.com/matthias/schule/pythagoras_berechnung_bild.png" style="width:358px;height:200px;"><br />			
+				Das heißt also:
+			</p>
+			<h4>
+				a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup><br/>
+			</h4>
+			<p>
+				Das wird an diesem Bild verdeutlicht:<br/>
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/01-Rechtwinkliges_Dreieck-Pythagoras.svg/520px-01-Rechtwinkliges_Dreieck-Pythagoras.svg.png" style="width:400px;height:436px;"></br>
+				Für genauere Deatails hier geht zum <a href="https://de.wikipedia.org/wiki/Satz_des_Pythagoras">Wikipedia Artikel</a> 
+			</p>
+			<p>
+				Man kann jetzt die verschidenen Seiten berechnen indem man den Satz des Pythagoras umstellt.
+				<table>
+					<tr>
+						<th>geg.</th>
+						<th>ges.</th>
+						<th>Formel</th>
+					</tr>
+					<tr>
+						<td>a, b</td>
+						<td>c </td>
+						<td><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fedf2f36b06db4bed9920046bd74c332c99ea4a2" ></td>
+					</tr>
+					<tr>
+						<td>b, c</td>
+						<td>a</td>
+						<td><div class="crop">
+							<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6d535b95ac8198459e8d43593d8c64720b9f773e"></div>
+						</td>
+					</tr>
+					<tr>
+						<td>a, c</td>
+						<td>b</td>
+						<td><div class="cropp">
+							<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6d535b95ac8198459e8d43593d8c64720b9f773e"></div>
+						</td>
+					</tr>
+				</table>
+			</p>
+
 		<h3> Um c zu berechnen das folgende Programm benutzen</h3>
                 <main>
 		<form>
 			
 			<label for="a">a: 
-				<input id="a" type="number" min="0" max="1000" step="1" value="1">
+				<input id="a" type="number" min="0" max="1000" step="0.01" value="1">
 			</label>
 			<label for="b">b: 
-				<input id="b" type="number" min="0" max="1000" step="1" value="1">
+				<input id="b" type="number" min="0" max="1000" step="0.01" value="1">
 			</label>
 			<label>c:
 				<output id="c"></output>
@@ -36,8 +105,7 @@
 		</form>
                 </main>
 	</body>
-		
-
+	
 	</head>
 	<body>
 		<h3> Um a zu berechnen das folgende Programm benutzen</h3>
