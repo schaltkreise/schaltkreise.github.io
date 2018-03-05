@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat');
+html {
+  height: 1200px;
+  font-size: 16px;
+}
+
+body {
+  height: 100%;
+  background: url("https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg") no-repeat center top / cover;
+}
+
+body * {
+  /* border: 1px solid; */
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+  width: 100%;
+  transition: background-color 100ms linear;
+}
+
+nav * {
+  margin: 0;
+  padding: 0;
+}
+
+nav h3 {
+  flex: 1;
+  text-align: center;
+}
+
+nav h3 a {
+  display: inline-block;
+  /* margin-left: 0.33rem; */
+  color: #fed136;
+  font-family: 'Kaushan Script', Helvetica, Arial, cursive;
+  font-size: 1.75rem;
+  text-decoration: none;
+  transition: font-size 200ms linear;
+}
+
+nav ul {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+nav ul li:last-child {
+  margin-right: 4rem;
+}
+
+nav ul li a {
+  color: white;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-size: 0.9rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  color: #fed136;
+}
+
+.scrolled-nav {
+  background-color: #212529;
+}
+
+.scrolled-nav h3 a {
+  font-size: 1rem;
+}
