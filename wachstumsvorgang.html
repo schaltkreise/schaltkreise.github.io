@@ -1,0 +1,138 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+  <title>Wachstumsprozesse </title>
+  <link rel="shortcut icon" href="fileadmin/templates/gfx/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="headings.css">
+</head>
+
+<body>
+  <h1 class="underline">Wachstumsprozesse</h1>
+  <h2 id="zweitens" tabindex="-1" class="underline">Definition</h2>
+  <p>
+    Verändert sich der Bestand B bei jedem Zeilenschritt (z.B. jedes Jahr) immer um denselben Wachstumsfaktor q, so spricht man von exponentiellen Wachstum.</br>
+    </br>Mit B(0) bezeichnet wir den Anfangsbestand zum Zeitpunkt t = 0. Den Bestand b(t) nach t Zeitschnitten (z.B. t Jahre) berechnen wir mit der Formel :</br>
+
+    <h4>
+      B(t) = B(0) &#183 q<sup> t<br/>
+			</h4>  
+      Gilt q > 1 , dann sprechen wir von einer exponentiellen Zunahme.
+      </br>
+      Gilt 0 < q <1, dann sprechen wir von exponentieller Abnahme 
+</p></br> 
+    <table>
+      <tr>
+        <th>geg.</th>
+        <th>ges.</th>
+        <th>Formel</th>
+      </tr>
+      <tr>
+        <td>B(0), q, <sup> t</sup></td>
+      <td>B(t) </td>
+      <td>
+        <div class="cropppp">
+          <img src="https://preview.ibb.co/ig7Ja7/Whats_App_Image_2018_03_11_at_7_51_50_PM_1.jpg" </td>
+        </div>
+        </tr>
+        <tr>
+          <td>B(t), q, <sup> t</sup></td>
+          <td>B(0)</td>
+          <td>
+            <div class="cropppppp">
+              <img src="https://preview.ibb.co/hPH9F7/Whats_App_Image_2018_03_11_at_7_53_59_PM.jpg" border="0">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>B(t), B(0), <sup>t</sup></td>
+          <td>q</td>
+          <td>
+            <div class="croppp">
+              <img src="https://image.ibb.co/ipzNJS/Whats_App_Image_2018_03_11_at_6_54_44_PM.jpg" />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>B(0), B(t), q &nbsp</td>
+          <td>t</td>
+          <td>
+            <div class="croppppp">
+              <img src="https://preview.ibb.co/nLxy8S/Whats_App_Image_2018_03_11_at_7_51_50_PM.jpg" border="0">
+            </div>
+          </td>
+        </tr>
+        </table>
+
+        <h3 id="drittens" tabindex="-1"> Um B(t) zu berechnen das folgende Programm benutzen</h3>
+        <form>
+
+          <label for="B">B(0): 
+				<input id="B" type="number" min="0" max="1000" step="1" value="1">
+			</label>
+          <label for="q">&nbsp &nbsp &nbsp q: 
+				<input id="q" type="number" min="0" max="1000" step="1" value="1">
+			</label>
+          <label for="t">&nbsp &nbsp &nbsp t : 
+				<input id="t" type="number" min="0" max="1000" step="1" value="1">
+			</label>
+          <label>B(t):
+				<output id="Bt"></output>
+			</label>
+          <button type="button" id="berechnen">B(t) berechnen</button>
+        </form>
+        <h3> Um B(0) zu berechnen das folgende Programm benutzen</h3>
+        <form>
+          <label for="Btt">B(t): 
+				<input id="Btt" type="number" min="0" max="1000" step="1" value="1">
+			</label>
+          <label for="qq">q: 
+				<input id="qq" type="number" min="0" max="1000" step="1" value="1">
+			</label>
+          <label for="tt">t: 
+				<input id="tt" type="number" min="0" max="1000" step="1" value="1">
+			</label>
+          <label>B(0):
+				<output id="BB"></output>
+			</label>
+          <button type="button" id="berechnenn">B(0) berechnen</button>
+        </form>
+        <h3> Um q zu berechnen das folgende Programm benutzen</h3>
+        <form>
+          <label for="Bttt">B(t): 
+				<input id="Bttt" type="number" min="0" max="1000" step="1" value="1">
+			</label>
+          <label for="BBB">B(0): 
+				<input id="BBB" type="number" min="0" max="1000" step="1" value="1">
+			</label>
+          <label for="ttt">t: 
+				<input id="ttt" type="number" min="0" max="1000" step="1" value="1">
+			</label>
+          <label>q:
+				<output id="qqq"></output>
+			</label>
+          <button type="button" id="berechnennn">q berechnen</button>
+        </form>
+        <h3> Um t zu berechnen das folgende Programm benutzen</h3>
+        <form>
+          <label for="Btttt">B(t): 
+				<input id="Btttt" type="number" min="0" max="1000" step="1" value="1">
+			</label>
+          <label for="BBBB">B(0): 
+				<input id="BBBB" type="number" min="0" max="1000" step="1" value="1">
+			</label>
+          <label for="qqqq">q: 
+				<input id="qqqq" type="number" min="0" max="1000" step="1" value="1">
+			</label>
+          <label>t:
+				<output id="tttt"></output>
+			</label>
+          <button type="button" id="berechnennnn">t berechnen</button>
+        </form>
+        <script type='text/javascript' src="wv.js"></script>
+</body>
+
+</html>

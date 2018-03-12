@@ -1,0 +1,165 @@
+h1 {
+  text-align: center;
+}
+h2 {
+  padding-left: 10px;
+  margin-bottom: -0.5em;
+}
+h3 {
+  padding-left: 3em;
+  color: DimGray;
+}
+h4 {
+  padding-left: 6em;
+  color: Gray;
+}
+body {
+  background: url("http://kb4images.com/images/polygon-wallpaper/36628320-polygon-wallpaper.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-left: 0.8em;
+  font-family: "Lobster";
+  font-size: 22px;
+  letter-spacing: 0.2px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: Gray;
+}
+
+a:active {
+  text-decoration: underline;
+}
+.crop {
+  width: 130px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.crop img {
+  width: 120px;
+  height: 55px;
+  margin: 0px 0 0 -7px;
+}
+
+.croppp img {
+  width: 150px;
+  height: 80px;
+  margin: 0px 0 0 0px;
+}
+.cropppp img {
+  width: 200px;
+  height: 80px;
+  margin: 0px 0 0 0px;
+}
+.croppppp img {
+  width: 300px;
+  height: 80px;
+  margin: 0px 0 0 0px;
+}
+.cropppppp img {
+  width: 180px;
+  height: 80px;
+  margin: 0px 0 0 0px;
+}
+.cropp {
+  width: 130px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.cropp img {
+  width: 130px;
+  height: 60px;
+  margin: -30px 0 0 -7px;
+}
+label,
+button {
+  display: block;
+  margin: 2em;
+}
+
+input {
+  width: 3.5em;
+}
+table,
+td,
+th {
+  border: 1px solid black;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+p {
+  font-size: 1.1em;
+}
+ol {
+  color: rgb(60, 60, 60);
+  font-size: 1.2em;
+}
+.nomargin {
+  margin-left: -3em;
+  margin-bottom: 0.05em;
+  letter-spacing: 1.2px;
+  color: rgb(60, 60, 60);
+  text-decoration: underline rgb(60, 60, 60);
+}
+.nomarginh4 {
+  margin-left: -6em;
+  margin-bottom: 0.7em;
+  letter-spacing: 1.2px;
+  color: rgb(60, 60, 60);
+  text-decoration: underline rgb(60, 60, 60);
+}
+.underline {
+  text-decoration: underline;
+}
+label {
+  margin-left: 2em;
+}
+.position {
+  position: absolute;
+  margin-left: 80px;
+  margin-top: -35px;
+  width: 300px;
+  height: 190px;
+  border: 3px solid;
+}
+.frac { display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    letter-spacing: 0.001em;
+    text-align: center;
+}
+.frac > span {
+    display: block;
+    padding: 0.1em;
+}
+.frac span.bottom {
+    border-top: thin solid black;
+}
+.frac span.symbol {
+    display: none;
+} 
+center{
+  position: centered;
+}
