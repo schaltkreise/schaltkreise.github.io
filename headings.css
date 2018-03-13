@@ -235,6 +235,14 @@ input[type=number]:focus {
     table{
         margin-right: 10px;
     }
+    .position {
+      position: absolute;
+      margin-top: 70px;
+      margin-left: -60px;
+      width: 250px;
+      height: 140px;
+      border: 3px solid;
+    }
 }
 @media screen and (max-width:720px) {
   input[type=number] {
