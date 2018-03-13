@@ -164,7 +164,7 @@ center{
   position: centered;
 }
 input[type=button], input[type=submit], input[type=reset] {
-	background-color: Gray;
+    background-color: Gray;
     border: none;
     color: white;
     text-decoration: none;
