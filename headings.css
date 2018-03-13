@@ -163,3 +163,16 @@ label {
 center{
   position: centered;
 }
+input[type=button], input[type=submit], input[type=reset] {
+	background-color: Gray;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    width: 6%;
+    height: 3%;
+    margin: -20px 30px;
+}
+.marginbottomm{
+    margin-bottom: 10px!important;
+}
