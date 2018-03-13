@@ -12,7 +12,7 @@ function berechne_BB() {
   var aa = parseFloat(document.getElementById("aa").value);
   var cc = parseFloat(document.getElementById("cc").value);
 
-  var dd = ((b*c)/a);
+  var dd = ((bb*cc)/aa);
 
   document.getElementById("dd").value = dd;
 }
