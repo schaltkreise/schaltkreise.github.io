@@ -23,6 +23,7 @@ body {
   font-family: "Lobster";
   font-size: 22px;
   letter-spacing: 0.2px;
+  margin: 0;
 }
 
 a:link {
