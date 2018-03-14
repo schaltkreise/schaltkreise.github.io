@@ -199,12 +199,17 @@ input[type=number]:focus {
   padding: 0.1px;
   text-align: center;
   height: auto;
+  margin-left: -0.8em;
+  margin-top: -10px;
+  margin-right: -0.8em;  
 }
 
 .header {
   padding: 10px 16px;
   background: #555;
   color: #f1f1f1;
+  margin-left: -0.8em;
+  margin-right: -0.8em;    
 }
 
 .content {
