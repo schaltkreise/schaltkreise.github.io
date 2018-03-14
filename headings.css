@@ -150,6 +150,7 @@ label {
     vertical-align: middle;
     letter-spacing: 0.001em;
     text-align: center;
+    z-index:-1;
 }
 .frac > span {
     display: block;
