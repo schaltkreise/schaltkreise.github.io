@@ -307,10 +307,12 @@ input[type=number]:focus {
     }
     .position {
       position: absolute;
-      margin-top: 70px;
-      margin-left: -60px;
-      width: 250px;
-      height: 140px;
+      margin-top: 120px;
+      margin-left: -30px;
+      margin-top: 100px;
+      margin-left: -10px;
+      width: 150px;
+      height: 80px;
       border: 3px solid;
     }
 }
