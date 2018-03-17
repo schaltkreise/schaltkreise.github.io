@@ -321,6 +321,8 @@ input {
         margin-bottom: 10px!important;
     }
     html{
+      margin: 0
+      padding: 0; 
     }
     body {
       background: url("http://kb4images.com/images/polygon-wallpaper/36628320-polygon-wallpaper.jpg");
