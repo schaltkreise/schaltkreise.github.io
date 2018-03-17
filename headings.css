@@ -320,6 +320,14 @@ input {
     .marginbottomm{
         margin-bottom: 10px!important;
     }
+    html{
+	  background: url("http://www.intrawallpaper.com/static/images/White-Background-9B1.jpg");
+	  background-repeat: no-repeat;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+    }
     body {
       background: url("http://kb4images.com/images/polygon-wallpaper/36628320-polygon-wallpaper.jpg");
       -webkit-background-size: cover;
