@@ -205,7 +205,7 @@ input {
 
 .ripple {
   background-position: center;
-  transition: background 0.5s;
+  transition: background 0.3s;
 }
 .ripple:hover {
   background: #696969 radial-gradient(circle, transparent 1%, #4a4c4c 1%) center/15000%;
