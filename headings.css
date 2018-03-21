@@ -291,6 +291,9 @@ input {
 .opacityt{
     color: rgba(255,255,255,0);
 }
+.id{
+    padding-top:60px;
+}
 @media screen and (max-width:1080px) {
   input[type=number] {
     width: 20%;
