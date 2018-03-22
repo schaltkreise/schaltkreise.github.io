@@ -324,14 +324,13 @@ input {
         margin-bottom: 10px!important;
     }
     html{
-      margin: 0;
-      padding: 0; 
-      background: url("http://kb4images.com/images/polygon-wallpaper/36628320-polygon-wallpaper.jpg") !important;
+      background: url("http://www.intrawallpaper.com/static/images/White-Background-9B1.jpg");
+      background-repeat: no-repeat !important;
+      background-position: top
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      background-repeat: no-repeat;
       
     }
     body {
