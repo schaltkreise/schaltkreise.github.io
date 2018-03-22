@@ -331,7 +331,7 @@ input {
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      
+      min-height: 100%;
     }
     body {
       margin-left: 0.8em;
