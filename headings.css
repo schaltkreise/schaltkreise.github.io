@@ -323,17 +323,16 @@ input {
     .marginbottomm{
         margin-bottom: 10px!important;
     }
-<!--
     html{
       background: url("http://www.intrawallpaper.com/static/images/White-Background-9B1.jpg");
-      background-position: top
+      background-position: top;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
       min-height: 100%;
+      background-repeat: no-repeat;
     }
-//-->
     body {
       margin-left: 0.8em;
       font-family: "Lobster";
