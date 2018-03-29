@@ -325,7 +325,6 @@ input {
     }
     html{
       background: url("http://www.intrawallpaper.com/static/images/White-Background-9B1.jpg");
-      background-repeat: no-repeat !important;
       background-position: top
       -webkit-background-size: cover;
       -moz-background-size: cover;
