@@ -294,7 +294,7 @@ input {
 .id{
     padding-top:60px;
 }
-@media screen and (max-width:1080px) {
+@media only screen and (max-width:1080px) {
   input[type=number] {
     width: 20%;
     padding: 12px 20px;
