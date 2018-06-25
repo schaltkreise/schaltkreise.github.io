@@ -746,7 +746,7 @@ tr:hover {background-color:#f5f5f5;}
   z-index:2;
   position:absolute;
   margin-left:10px;
-  margin-top:770px;
+  margin-top:760px;
 }
 @media only screen and (max-width: 1280px) {
   .a {
@@ -817,5 +817,14 @@ tr:hover {background-color:#f5f5f5;}
     position: fixed;
     z-index: 2;
     margin-left:-60px;
+}
+  #schaltskizzenmessen{
+    width:100px;
+    height:10px;
+    background-color:rgba(0,0,0,0);
+    z-index:2;
+    position:absolute;
+    margin-left:10px;
+    margin-top:770px;
 }
 }
