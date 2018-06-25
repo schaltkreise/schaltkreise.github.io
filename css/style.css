@@ -1,0 +1,752 @@
+.a {
+  width: 50px;
+  height:50px;
+  z-index: 3;
+  position: fixed;
+  margin-top: -5px;
+  margin-left:-30px;
+}
+.c {
+  display: none;
+  width: 300px;
+  min-height: 110%;
+  margin-top: -8px;
+  margin-left: -10px;
+  background-color: gray;
+  position: fixed;
+  z-index: 1;
+  margin-left:-40px;
+}
+.icon {
+  width: 64px;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+.a:hover + .c {
+  display: block;
+}
+.c:hover {
+  display: block;
+}
+.margin-left {
+  margin-left: 30px;
+  color: white;
+  width:300px;
+  position:absolute;
+  margin-bottom:60px;
+  font-size:30px;
+  position:absolute;
+}
+.bar {
+  width: 38px;
+  height: 8px;
+  background: rgb(20, 20, 20);
+  border-radius: 25px;
+  margin-bottom: 3px;
+}
+.box {
+  width: 1000px;
+  height: 100px;
+  background-color: orange;
+  position: relative;
+}
+.relative {
+  position: relative;
+}
+.hide {
+  display: none;
+}
+#show {
+  width: 500px;
+  height: 50px;
+  background-color: orange;
+  position: relative;
+  z-index: 1;
+  left: 200px;
+  bottom: 100px;
+}
+h1 {
+  margin-left: 50%;
+  position: fixed;
+  margin-top: 4px;
+}
+.blitzlinks {
+  width: 40px;
+  position: fixed;
+  margin-left: 45%;
+  margin-top: 3px;
+}
+.blitzrechts {
+  width: 40px;
+  position: fixed;
+  margin-left: 68.5%;
+  margin-top: 3px;
+}
+.background {
+  background-color: gray;
+  width: 110%;
+  height: 53px;
+  margin-left: -20px;
+  margin-top: -19px;
+  position: fixed;
+  z-index: 2;
+  margin-left:-60px;
+}
+.barvertikalger1 {
+  width: 10px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 100px;
+  border-radius: 10px;
+}
+.barvertikalger2 {
+  width: 10px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+  margin-top: 175px;
+  margin-left: 100px;
+  border-radius: 10px;
+}
+.barvertikalm3 {
+  width: 10px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+  margin-top: 175px;
+  margin-left: -290px;
+  border-radius: 10px;
+}
+.barvertikalp4 {
+  width: 10px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+  margin-top: 45px;
+  margin-left: -290px;
+  border-radius: 10px;
+}
+.circleborder {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 85px;
+  border-radius: 100px;
+  border: 5px solid black;
+}
+.barhorizontalo1 {
+  width: 400px;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+  margin-top: 42px;
+  margin-left: -290px;
+  border-radius: 10px;
+}
+.einfacherschaltkreisdergeraet1 {
+  margin-left: 400px;
+  margin-top: 450px;
+  position: absolute;
+}
+.barhorizontalp2 {
+  width: 50px;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+  margin-top: 140px;
+  margin-left: -310px;
+  border-radius: 10px;
+}
+.barhorizontalm3 {
+  width: 30px;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+  margin-top: 175px;
+  margin-left: -300px;
+  border-radius: 10px;
+}
+.barhorizontalvs4 {
+  width: 150px;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+  margin-top: 265px;
+  margin-left: -290px;
+  border-radius: 10px;
+}
+.barhorizontalps5 {
+  width: 150px;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+  margin-top: 265px;
+  margin-left: -40px;
+  border-radius: 10px;
+}
+.barhorizontal6s {
+  width: 125px;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+  margin-top: 286px;
+  margin-left: -150px;
+  border-radius: 10px;
+  -ms-transform: rotate(20deg); /* IE 9 */
+  -webkit-transform: rotate(20deg); /* Safari 3-8 */
+  transform: rotate(20deg);
+}
+.barhorizontal6s:hover {
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Safari 3-8 */
+  transform: rotate(0deg);
+  margin-top: 265px;
+  transition: 0.4s;
+}
+.lampe {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 90px;
+  border-radius: 100px;
+  background-color: yellow;
+  opacity: 0;
+}
+.barhorizontal6s:hover + .lampe {
+  opacity: 1;
+  transition-delay: 0.3s;
+  transition-duration: 0.2s;
+}
+
+.ampere {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin-top: 51px;
+  margin-left: 20px;
+  border-radius: 100px;
+  border: 3px black solid;
+  opacity: 1;
+  background-color:rgb(240, 255, 230);
+  text-align: center;
+  padding-bottom:3px;
+}
+.ampere1 {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin-top: 1623px;
+  margin-left:710px;
+  border-radius: 100px;
+  border: 3px black solid;
+  opacity: 1;
+  background-color:rgb(240, 255, 230);
+  text-align: center;
+  padding-bottom:3px;
+}
+.ampere2 {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  margin-top: 245px;
+  margin-left:-230px;
+  border-radius: 100px;
+  border: 3px black solid;
+  opacity: 1;
+  text-align: center;
+  padding-bottom:0px;
+  background-color:white;
+  z-index: 1;
+  font-size:40px;
+}
+.volt {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin-top: 1711px;
+  margin-left: 780px;
+  border-radius: 100px;
+  border: 3px black solid;
+  opacity: 1;
+  background-color:rgb(240, 255, 230);
+  text-align: center;
+  padding-bottom:3px;
+}
+.barvertikalvolt {
+  width: 5px;
+  height: 68px;
+  background-color: black;
+  position: absolute;
+  margin-top: 1687px;
+  margin-left: 788px;
+  border-radius: 10px;
+  z-index:-1;
+}
+.volt1 {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin-top: 1830px;
+  margin-left: 780px;
+  border-radius: 100px;
+  border: 3px black solid;
+  opacity: 1;
+  background-color:rgb(240, 255, 230);
+  text-align: center;
+  padding-bottom:3px;
+}
+.barvertikalvolt1 {
+  width: 5px;
+  height: 68px;
+  background-color: black;
+  position: absolute;
+  margin-top: 1808px;
+  margin-left: 788px;
+  border-radius: 10px;
+  z-index:-1;
+}
+.volt2 {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  margin-top: 135px;
+  margin-left: 0px;
+  border-radius: 100px;
+  border: 3px black solid;
+  opacity: 1;
+  background-color:white;
+  text-align: center;
+  padding-bottom:3px;
+  font-size:40px;
+}
+.barvertikalvolt2 {
+  width: 10px;
+  height: 222px;
+  background-color: black;
+  position: absolute;
+  margin-top: 48px;
+  margin-left: 19px;
+  border-radius: 10px;
+  z-index:-1;
+}
+.einfacherschaltkreisdergeraet2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  -ms-transform: scale(2, 3); /* IE 9 */
+  -webkit-transform: scale(2, 3); /* Safari */
+  transform: scale(1, 0.3); /* Standard syntax */
+  margin-left: 1500px;
+  margin-top: 100px;
+}
+.einfacherschaltkreisdergeraet3 {
+  position: absolute;
+  -ms-transform: scale(2, 3); /* IE 9 */
+  -webkit-transform: scale(2, 3); /* Safari */
+  transform: scale(0.3, 0.3); /* Standard syntax */
+  margin-left: 100px;
+  margin-top: 0px;
+}
+.einfacherschaltkreisdergeraet4 {
+  position: absolute;
+  width: 140px;
+  height:350px;
+  -ms-transform: scale(0, 0); /* IE 9 */
+  -webkit-transform: scale(0, 0); /* Safari */
+  transform: scale(0, 0); /* Standard syntax */
+  margin-left: 90px;
+  margin-top:1132px;
+  border:5px solid gray;
+  border-radius: 25px;
+  padding-left:340px;
+  z-index:-2;
+  background-color:white;
+}
+.einfacherschaltkreisdergeraet5 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  -ms-transform: scale(0.4, 0.4); /* IE 9 */
+  -webkit-transform: scale(0.4, 0.4); /* Safari */
+  transform: scale(0.4, 0.4); /* Standard syntax */
+  margin-left: 150px;
+  margin-top: 150px;
+
+}
+.einfacherschaltkreisdergeraet6 {
+  position: absolute;
+  width: 140px;
+  height:350px;
+  -ms-transform: scale(0, 0); /* IE 9 */
+  -webkit-transform: scale(0, 0); /* Safari */
+  transform: scale(0, 0); /* Standard syntax */
+  margin-left: -593px;
+  margin-top:0px;
+  border:5px solid gray;
+  border-radius: 25px;
+  padding-left:340px;
+}
+.einfacherschaltkreisdergeraet7 {
+  position: absolute;
+  -ms-transform: scale(2, 3); /* IE 9 */
+  -webkit-transform: scale(2, 3); /* Safari */
+  transform: scale(0.3, 0.3); /* Standard syntax */
+  margin-left: 100px;
+  margin-top: 0px;
+}
+.einfacherschaltkreisdergeraet8 {
+  position: absolute;
+  -ms-transform: scale(2, 3); /* IE 9 */
+  -webkit-transform: scale(2, 3); /* Safari */
+  transform: scale(0.3, 0.3); /* Standard syntax */
+  margin-left: 100px;
+  margin-top: 0px;
+}
+.einfacherschaltkreisdergeraet9 {
+  position: absolute;
+  width: 140px;
+  height:350px;
+  -ms-transform: scale(0, 0); /* IE 9 */
+  -webkit-transform: scale(0, 0); /* Safari */
+  transform: scale(0, 0); /* Standard syntax */
+  margin-left: -593px;
+  margin-top:-100px;
+  border:5px solid gray;
+  border-radius: 25px;
+  padding-left:340px;
+}
+.ampereschaltkreis{
+  font-size:24px;
+  margin-top:400px;
+  margin-left:-300px;
+}
+.bottombarfix {
+  width: 100%;
+  height: 100px;
+  margin-top: 1000px;
+  position: absolute;
+  background-color: black;
+  opacity: 0;
+}
+span {
+  color: rgba(0, 0, 0, 0);
+}
+input:checked + div#one {
+  -ms-transform: scale(1, 1); /* IE 9 */
+  -webkit-transform: scale(1, 1); /* Safari */
+  transform: scale(1, 1); /* Standard syntax */
+  transition-duration: 1s;
+  transform-origin: 50% 50%;
+}
+input:checked + div#two {
+  -ms-transform: scale(1, 1); /* IE 9 */
+  -webkit-transform: scale(1, 1); /* Safari */
+  transform: scale(1, 1); /* Standard syntax */
+  transition-duration: 1s;
+  transform-origin: 50% 50%;
+}
+input:checked + div#three {
+  -ms-transform: scale(1, 1); /* IE 9 */
+  -webkit-transform: scale(1, 1); /* Safari */
+  transform: scale(1, 1); /* Standard syntax */
+  transition-duration: 1s;
+  transform-origin: 50% 50%;
+}
+.box {
+  width: 1000px;
+  height: 200px;
+  background-color: orange;
+  position: absolute;
+  -ms-transform: scale(0, 0); /* IE 9 */
+  -webkit-transform: scale(0, 0); /* Safari */
+  transform: scale(0, 0); /* Standard syntax */
+  margin-top: 506px;
+}
+.relative {
+  position: relative;
+}
+.hide {
+  display: none;
+}
+#show {
+  width: 500px;
+  height: 50px;
+  background-color: orange;
+  position: relative;
+  z-index: 2;
+  left: 200px;
+  bottom: 100px;
+}
+.test {
+  position: absolute;
+  margin-top: 400px;
+}
+.area {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  background-color:rgb(240, 255, 230);
+  margin-top: 1670px;
+  margin-left: 680px;
+  z-index:-2;
+}
+.borderboxelement {
+  border: 3px solid slategray;
+  border-radius: 5px;
+}
+.area1 {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  background-color:rgb(240, 255, 230);
+  margin-top: 1550px;
+  margin-left: 680px;
+  z-index:-1;
+}
+.borderboxelement1 {
+  border: 3px solid slategray;
+  border-radius: 5px;
+}
+.area2 {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  background-color:rgb(240, 255, 230);
+  margin-top: 1790px;
+  margin-left: 680px;
+}
+.borderboxelement2 {
+  border: 3px solid slategray;
+  border-radius: 5px;
+  z-index:-2;
+}
+html {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200%;
+  font-family: 'Russo One', sans-serif;
+  margin-left:30px;
+}
+body {
+  font-size: 100%;
+}
+p {
+  font-size: 1.3em;
+}
+p.top {
+  font-size: 1.3em;
+  margin-top: 50px;
+  position: absolute;
+  text-decoration: underline;
+}
+p.firstparagraph {
+  position: absolute;
+  margin-top: 100px;
+}
+.roterkreis{
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  margin-top: 224px;
+  margin-left: 45px;
+  border-radius: 100px;
+  border: 4px solid red;
+}
+.roterkreiskabel{
+  width: 180px;
+  height: 30px;
+  position: absolute;
+  margin-top: 191px;
+  margin-left: 45px;
+  border-radius: 100px;
+  border: 4px solid red;
+}
+.roterkreisgeraet{
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  margin-top: 225px;
+  margin-left: 199px;
+  border-radius: 100px;
+  border: 4px solid red;
+}
+.roterkreisschalter{
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  margin-top: 271px;
+  margin-left: 95px;
+  border-radius: 100px;
+  border: 4px solid red;
+}
+.bord{
+  border: 2px solid gray;
+  width: 200px;
+  height:130px;
+  position:absolute;
+  margin-top:180px;
+  margin-left:40px;
+  
+}
+p.stromquelle{
+  position:absolute;
+  margin-left: 260px;
+  margin-top:180px;
+}
+p.kabel{
+  position:absolute;
+  margin-left: 260px;
+  margin-top:380px;
+}
+p.geraet{
+  position:absolute;
+  margin-left: 260px;
+  margin-top:580px;
+}
+p.schalter{
+  position:absolute;
+  margin-left: 260px;
+  margin-top:780px;
+}
+p.schalter{
+  position:absolute;
+  margin-left: 260px;
+  margin-top:780px;
+}
+.kabel{
+  margin-top: 190px;
+  position: absolute;
+}
+.geraet{
+  margin-top: 390px;
+  position: absolute;
+}
+.schalter{
+  margin-top: 590px;
+  position: absolute;
+}
+.test{
+  width:80px;
+  height:80px;
+  -webkit-clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+  background-color:black;
+  position:absolute;
+  margin-top:725px;
+  margin-left:185px;
+  transform: rotate(-49deg);
+}
+h1.demonstration{
+  margin-top:340px;
+  position: absolute;
+  margin-left: 40px;
+  text-decoration: underline;
+  width:500px;  
+}
+h1.demonstration1{
+  margin-top:870px;
+  position: absolute;
+  margin-left: 40px;
+  text-decoration: underline;
+  width:500px;  
+
+}
+.negativespace{
+  margin-bottom:-150px;
+}
+p.demonstration{
+  margin-top: 390px;
+  margin-bottom:100px;
+  margin-left:80px;
+  position:absolute;
+  width:700px;
+}
+.borderbottom{
+  margin-top:5000px;
+  position:absolute;
+  width:200px;
+  height:200px;
+  background-color:black;
+}
+.beschriftungampere{
+  font-size:40px;
+  margin-top:20px;
+  margin-left:160px;
+  position:absolute;
+}
+.beschriftungvolt{
+  font-size:40px;
+  margin-top:20px;
+  margin-left:160px;
+  position:absolute;
+}
+.beschriftungamperevolt{
+  font-size:40px;
+  margin-top:0px;
+  margin-left:160px;
+  position:absolute;
+}
+.borderschaltkreisemessen{
+  width:1300px;
+  height:1010px;
+  position:absolute;
+  border: 3px solid black;
+  margin-top:820px;
+  z-index:-5;
+  margin-bottom:100px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.tableav{
+  margin-left:300px;
+  font-size:20px;
+  margin-top:-390px;
+}
+tr:hover {background-color:#f5f5f5;}
+@media only screen and (max-width: 1280px) {
+  .a {
+  width: 40px;
+  z-index: 3;
+  position: fixed;
+  margin-top: -8px;
+}
+    h1 {
+  margin-left: 45%;
+  position: fixed;
+  margin-top: 4px;
+}
+.blitzlinks {
+  width: 40px;
+  position: fixed;
+  margin-left: 40%;
+  margin-top: 3px;
+}
+.blitzrechts {
+  width: 40px;
+  position: fixed;
+  margin-left: 63.5%;
+  margin-top: 3px;
+}
+.background {
+  background-color: gray;
+  width: 110%;
+  height: 53px;
+  margin-left: -20px;
+  margin-top: -19px;
+  position: fixed;
+  z-index: 2;
+}
+}
