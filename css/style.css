@@ -87,7 +87,7 @@ h1 {
   width: 110%;
   height: 53px;
   margin-left: -20px;
-  margin-top: -19px;
+  margin-top: -15px;
   position: fixed;
   z-index: 2;
   margin-left:-60px;
@@ -543,6 +543,7 @@ p.top {
   margin-top: 50px;
   position: absolute;
   text-decoration: underline;
+  padding:30px;
 }
 p.firstparagraph {
   position: absolute;
